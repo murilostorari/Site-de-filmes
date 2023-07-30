@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/icon.ico">
+    <title>Site de filmes</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png" alt="Logo"></a>
+            </div>
+
+            <nav class="navbar">
+                <button onclick="PopularBtnClick()">Popular</button>
+                <button onclick="TopRatedBtnClick()">Melhor avaliados</button>
+                <button onclick="UpcomingBtnClick()">Lançamentos futuros</button>
+                <button onclick="NowPlayingBtnClick()">Nos cinemas hoje</button>
+            </nav>
+
+            <form id="form">
+                <input type="text" id="search" class="search" placeholder="Pesquisar...">
+            </form>
+        </div>
+    </header>
+
+    <main id="main"></main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
